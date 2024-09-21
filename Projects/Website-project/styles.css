@@ -1,0 +1,71 @@
+.menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    justify-content: space-evenly;
+    padding: 0%;
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.web-links {
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
+
+img.pfp-image {
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+p.username {
+    font-weight: bold;
+}
+
+div.profiles{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.back-to-top-btn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: hsl(0, 0%, 0%);
+    border-radius: 50%;
+    border: solid 5px;
+    border-color: black;
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+    height: 35px;
+    width: 35px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.back-to-top-btn:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+    transform: rotate(-90deg);
+    transition: 1s linear(0 0%, 0 2.27%, 0.02 4.53%, 0.04 6.8%, 0.06 9.07%, 0.1 11.33%, 0.14 13.6%, 0.25 18.15%, 0.39 22.7%, 0.6 27.99%, 0.82 31.8%, 1.04 30.47%, 0.89 40.9%, 0.85 43.18%, 0.81 45.45%, 0.79 47.72%, 0.77 50%, 0.75 52.27%, 0.75 54.55%, 0.75 56.82%, 0.77 59.1%, 0.79 61.38%, 0.81 63.65%, 0.85 65.93%, 0.9 65.99%, 1.04 67.55%, 0.97 74.98%, 0.95 77.25%, 0.94 79.53%, 0.94 81.8%, 0.94 84.08%, 0.95 86.35%, 0.97 88.63%, 1 90.9%, 0.99 93.18%, 0.98 95.45%, 0.99 97.73%, 1 100%);
+}

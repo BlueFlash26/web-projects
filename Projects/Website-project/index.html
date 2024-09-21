@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="description" content="...">
+        <title>Another Test Subject</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body id="body">
+        <ul id ="menubar" class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="tutorials.html">Tutoials<span>&dtri;</span></a>
+                <ul style="display: none;">
+                    <li><a href="tutorials.html#section-html">HTML</a></li>
+                    <li><a href="tutorials.html#section-css">CSS</a></li>
+                </ul>
+            </li>
+            <li><a href="bookmark-webs.html">Bookmarks</a></li>
+            <li><a href="..\Projects.html">my projects</a></li>
+            <li><a href="mailto:abdullahsalman416@gmail.com">Email Me&#x1F4E7;</a></li>
+        </ul>
+        
+        <!--each page should have only one H1--> 
+        <h1>Profiles&VerticalBar;</h1>
+        <div id="profile" class="profiles">
+            <div class="batman-profile">
+                <a href="images/Batman-PFP.png">
+                    <img class="pfp-image" src="images/Batman-PFP.png" alt="Batman-PFP"/>
+                </a>
+                <p class="username">@Batman</p>
+                <p>I am <strong style="color: darkblue;">Batman</strong></p>
+            </div>
+            <div class="superman-profile">
+                <a href="images/Superman-PFP.png">
+                    <img class="pfp-image" src="images/Superman-PFP.png" alt="Superman-PFP"/>
+                </a>
+                <p class="username">@Superman</p>
+                <p><strong style="color: darkred;">Truth</strong> and <strong style="color: darkred;">Justice</strong></p>
+            </div>
+        </div>
+
+        <!--2 sections-->
+        <h2>HTML</h2>
+        <a href="tutorials.html">&lt;HTML tutorial&gt;</a>
+        <h2>CSS</h2>
+        <a href="tutorials.html">&lt;CSS tutorial&gt;</a>
+        <h2>Bookmarks</h2>
+        <a href="bookmark-webs.html">Bookmark Websites</a>
+        <a id="backToTopBtn" class="back-to-top-btn" href="#">&#8680;</a>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+
+#products {
+    display: flex;
+    margin: 40px 0px;
+    flex-wrap: wrap;
+}
+
+.product-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.product-image-container img{
+    height: 200px;
+    width: 200px;
+}
+
+.product-div {
+    margin: 10px 70px;
+}
+
+.create-product {
+    display: none;
+}
+
+.cart-btn {
+    float: right;
+    cursor: pointer;
+}

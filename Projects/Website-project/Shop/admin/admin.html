@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <title>Amazon -Admin</title>
+</head>
+<body>
+    <div id="authentication">
+        <label for="Email">Email</label>
+        <input type="email" id="emailInput" placeholder="amazon@email.com">
+        <label for="password">Password</label>
+        <input type="password" id="passwordInput" placeholder="enter password">
+        <button type="submit" class="js-login-btn">Confirm</button>
+    </div>
+ 
+    <div id="adminInterface">
+        <div class="create-product" id="js-create-product-form">
+            <label aria-required="true">Product Name</label>
+            <input class="js-product-name-input" type="text" placeholder="Product Name" required>
+            <label aria-required="true">Product Price</label>
+            <input class="js-product-price-input" type="number" placeholder="Price in cents" required>
+            <input class="js-product-image-input" type="file" accept="image/*">
+            <div>
+                <input class="js-product-stars-input" type="number" min="1" max="5" placeholder="stars">
+                <input class="js-product-counts-input" type="number" placeholder="counts">
+            </div>
+            <button class="js-add-new-product-btn" type="submit">Add to shop</button>
+        </div>
+        <div id="products"></div>
+        <button class="js-logout-btn">Log out</button>
+    </div>
+    <button class="goto-shop-btn"><a href="../Shop-page.html">Go to shop</a></button>
+    
+
+    <script src="admin.js"></script>
+</body>
+</html>
